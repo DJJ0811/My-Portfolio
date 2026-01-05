@@ -7,33 +7,64 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header class="site-header">
-        <h2 class="headerTitle">My Portfolio</h2>
+        <h1 class="headerTitle">My Portfolio</h1>
         <nav>
-            <ul class="headerUl">
-                <li><a href="#about">About</a></li>
+            <ul class="nav">
+                <li><a href="#about" aria-current="page">About</a></li>
                 <li><a href="#family">Family</a></li>
                 <li><a href="#project">Projects</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section id="about">
+        <section id="about" class="two-col">
             <img src="Tech Guy.jpeg" alt="">
             <div>
-                <h3>Hello, I'm Damilola Idowu</h3>
-                <p>I live in Ontario, Canada. I enjoy Soccer, Coding, and Video Games</p>
+                <h2>Hello, I'm Damilola Idowu</h2>
+                <p>I live in Ontario, Canada. I have many interest in different fields like Science,
+                    Math, and Sports. I am a very helpful Person and I love helping others and
+                    making sure they can succeds in whatever they are doing.</p>
+                <h3>Values & Interest</h3>
+                <ul>
+                    <li>Soccer</li>
+                    <li>Coding</li>
+                    <li>Science</li>
+                </ul>
             </div>
         </section>
-        <section id="family">
-
+        <section id="family" class="card">
+            <h2>My Family</h2>
+            <p>Here are my Family Members and how we are related:</p>
+            <section class="tree" aria-label="family-tree">
+                <ul>
+                    <li>Grandparents</li>
+                    <ul>
+                        <li>Grandma - Name - Hobby</li>
+                        <li>Grandpa - Name - Hobby</li>
+                    </ul>
+                    <li>Parents</li>
+                    <ul>
+                        <li>Mom - Remilekun - Content Creation & Cooking</li>
+                        <li>Dad - Micheal - Soccer</li>
+                    </ul>
+                    <li>Siblings</li>
+                    <ul>
+                        <li>Brother - Justin - Basketball</li>
+                        <li>Sister - Folasade - Dancing & Anime</li>
+                    </ul>
+                </ul>
+            </section>
         </section>
         <section id="project">
 
         </section>
     </main>
-
+    <footer class="site-footer">
+        <small>© <span id="year">2025</span> My Portfolio</small>
+    </footer>
 </body>
 
 </html>
